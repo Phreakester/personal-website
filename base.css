@@ -1,0 +1,18 @@
+.welcome{
+    font-size: 40px;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+#intro{
+    text-align: center;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+.list{
+    border: solid;
+    background-color: chocolate;
+}

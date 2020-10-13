@@ -1,0 +1,46 @@
+/* CSS is written simply
+selector {
+    propertyName: value;
+    otherProperty: otherValue;
+
+    selector could be tag name, class name, or ID
+
+    a dot before the selector specifies a class
+    a hash before selector shows ID
+
+    font-weight --> boldness of text
+
+    borders are a shorthand declaration
+
+    CSS resolves conflicts in cascading order - order of specificity
+    Order: Type(h1, div) -> classes (.blue) -> IDs
+
+    if there are two ex(font-size) descriptors, later one wins
+    unless overriden by !important; , but it is VERY bad practice to use that
+*/
+
+h1{
+    font-size: 20px;
+    border: dashed red;
+}
+
+.blue{
+    color: blue;
+}
+
+#lists{
+    color: violet;
+    border: solid;
+}
+
+#page.welcome{
+    font-size: 120px;
+    font-weight: 300;
+}
+body{
+    background-color: aquamarine;
+}
+
+p{
+    font-size: 50px;
+}
