@@ -15,4 +15,16 @@ body{
 .list{
     border: solid;
     background-color: chocolate;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.project{
+    border: solid green 1px;
+    border-left: solid green 5px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 10px;
 }
